@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractB",
+				"outputs": [
+					{
+						"internalType": "contract ContractB",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawFromDex",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/testing-grounds/ContractA.sol": "ContractA"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/testing-grounds/ContractA.sol": {
+			"keccak256": "0xa7004b200001d84d4c49d61e3ab0e0d0176e507c37afbe71de424fd75a9edee8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3238b2857b7582d0b45881eccb3086af6201d52c587d5f2b450a6c3b9feb5e6",
+				"dweb:/ipfs/Qmew9PiczaRMDfmmH9XGyNGdSgtVnh4QtN2r2xbK7GS9SU"
+			]
+		},
+		"contracts/testing-grounds/ContractB.sol": {
+			"keccak256": "0xf8f9921a22ca47c255c01f7cc77b329c1532552a1f53420526d77277a2868fdc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://20ae335f0faf53938dbba129d9b0988c71f6afcc5c6a274266038df8606ddf18",
+				"dweb:/ipfs/QmQfEuVjTjpcEjdGBni6KA6cpmB5NSit8FF1B1XjzztT4g"
+			]
+		}
+	},
+	"version": 1
+}
