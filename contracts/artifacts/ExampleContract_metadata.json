@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "updatedMessage",
+						"type": "string"
+					}
+				],
+				"name": "updateMessage",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartWallet.sol": "ExampleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartWallet.sol": {
+			"keccak256": "0xa9094bc228dec1435e0067b472209cf8c0ac8bdc0141bd22e600b9981f7ebec0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dccb1b5447b15a6113dd5fef34cdc0370ea0cce4ae623a7fafe47f4ca31a9905",
+				"dweb:/ipfs/QmSHvYGjtHiEwmparpogCgvZ6s3UyRmDpmMgiHmFFooDwz"
+			]
+		}
+	},
+	"version": 1
+}

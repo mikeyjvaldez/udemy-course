@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "toAddress",
+						"type": "address"
+					}
+				],
+				"name": "withdrawTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartWallet.sol": "SmartWallet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartWallet.sol": {
+			"keccak256": "0x9d2ae5e0cfff70d7d8a01820b2ac3c8f352974916a065dc89f290e2a06eb9b59",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3bccf86e2ff5ae387835b0346b8012bf0b758efe1290247ccd6a201aeb0a6e6",
+				"dweb:/ipfs/QmNiSNtZsJMBhov6VM7tjjhD3JYGj7MCDCb23mT5HbY6zd"
+			]
+		}
+	},
+	"version": 1
+}
